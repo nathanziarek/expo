@@ -7,7 +7,7 @@ APP_MK_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 
 NDK_MODULE_PATH := .$(HOST_DIRSEP)$(JSC_DIR)
 
-APP_STL := gnustl_shared
+APP_STL := c++_shared
 APP_CPPFLAGS := -std=c++11 -fexceptions -pthread
 
 # Make sure every shared lib includes a .note.gnu.build-id header
