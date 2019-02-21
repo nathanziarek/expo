@@ -46,7 +46,11 @@ interface Address {
 }
 interface LocationTaskOptions {
     accuracy?: LocationAccuracy;
+    timeInterval?: number;
+    distanceInterval?: number;
     showsBackgroundLocationIndicator?: boolean;
+    deferredUpdatesDistance?: number;
+    deferredUpdatesTimeout?: number;
 }
 interface Region {
     identifier?: string;
