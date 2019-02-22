@@ -109,6 +109,7 @@
     "expo-secure-store": "~1.0.0",
     "expo-sensors": "~2.0.0",
     "expo-sensors-interface": "~2.0.0",
+    "expo-sharing": "~1.0.0",
     "expo-sms": "~2.0.0",
     "expo-speech": "~1.0.0",
     "expo-sqlite": "~1.0.0",

@@ -18,6 +18,7 @@ import expo.modules.blurview.BlurViewPackage;
 import expo.modules.brightness.BrightnessPackage;
 import expo.modules.calendar.CalendarPackage;
 import expo.modules.camera.CameraPackage;
+import expo.modules.sharing.SharingPackage;
 import expo.modules.constants.ConstantsPackage;
 import expo.modules.contacts.ContactsPackage;
 import expo.modules.documentpicker.DocumentPickerPackage;
@@ -91,6 +92,7 @@ public class ExperiencePackagePicker {
       new SecureStorePackage(),
       new SegmentPackage(),
       new SensorsPackage(),
+      new SharingPackage(),
       new SpeechPackage(),
       new StripePackage(),
       new TaskManagerPackage(),

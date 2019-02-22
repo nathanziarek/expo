@@ -38,6 +38,7 @@ import ScreenOrientation from '../screens/ScreenOrientationScreen';
 import SecureStore from '../screens/SecureStoreScreen';
 import Sensor from '../screens/SensorScreen';
 import SMS from '../screens/SMSScreen';
+import Sharing from '../screens/SharingScreen';
 import StoreReview from '../screens/StoreReview';
 import TaskManager from '../screens/TaskManagerScreen';
 import TextToSpeech from '../screens/TextToSpeechScreen';
@@ -89,6 +90,7 @@ const ExpoApisStackNavigator = createStackNavigator(
     SecureStore,
     Sensor,
     SMS,
+    Sharing,
     StoreReview,
     TaskManager,
     TextToSpeech,
